@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snack Stash</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Snack Stash</h1>
+      <p class="tagline">Keep track of the snacks you're hoarding, and the ones you've already devoured.</p>
+      <p id="stats"></p>
+    </header>
+
+    <main>
+      <section id="add-section">
+        <h2>Add a snack</h2>
+        <div class="add-controls">
+          <input type="text" id="snack-name" placeholder="What's the snack?" />
+          <select id="snack-rating">
+            <option value="1">1 star</option>
+            <option value="2">2 stars</option>
+            <option value="3">3 stars</option>
+            <option value="4">4 stars</option>
+            <option value="5">5 stars</option>
+          </select>
+          <button id="add-button">Add to stash</button>
+        </div>
+      </section>
+
+      <section id="stash-section">
+        <h2>The stash</h2>
+        <ul id="snack-list"></ul>
+        <button id="clear-button">Clear the stash</button>
+      </section>
+    </main>
+
+    <script src="js/stash.js"></script>
+    <script src="js/render.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

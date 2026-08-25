@@ -1,0 +1,137 @@
+/* styles.css
+   The looks of Snack Stash. Nothing in here changes behavior. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #fdf6ec;
+  color: #3b2f2f;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 2.2rem;
+}
+
+.tagline {
+  margin: 0 0 12px;
+  color: #7a6a5a;
+}
+
+#stats {
+  font-weight: 600;
+  background: #fff1d6;
+  border: 2px solid #eeb64f;
+  border-radius: 999px;
+  display: inline-block;
+  padding: 6px 18px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.1rem;
+  border-bottom: 2px solid #eeb64f;
+  padding-bottom: 4px;
+}
+
+.add-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#snack-name {
+  flex: 1;
+  min-width: 160px;
+  padding: 8px 10px;
+  border: 2px solid #d8c7ae;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#snack-rating {
+  padding: 8px;
+  border: 2px solid #d8c7ae;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #ffffff;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: #eeb64f;
+  color: #3b2f2f;
+}
+
+button:hover {
+  background: #e3a532;
+}
+
+#snack-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px;
+}
+
+#snack-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #ffffff;
+  border: 2px solid #e8dcc8;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+}
+
+.snack-name {
+  flex: 1;
+}
+
+.snack-stars {
+  color: #e3a532;
+  letter-spacing: 2px;
+}
+
+li.eaten .snack-name {
+  text-decoration: line-through;
+  color: #a89684;
+}
+
+li.eaten .snack-stars {
+  opacity: 0.4;
+}
+
+.eaten-button {
+  background: #8fbf6f;
+  color: #ffffff;
+}
+
+.eaten-button:hover {
+  background: #7cab5e;
+}
+
+#clear-button {
+  background: #d96c4f;
+  color: #ffffff;
+}
+
+#clear-button:hover {
+  background: #c65a3e;
+}
