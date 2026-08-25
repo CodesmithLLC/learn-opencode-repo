@@ -2,15 +2,15 @@
 // The wiring of Snack Stash. This file connects the page's buttons
 // to the functions in stash.js, and re-renders after every change.
 
-var addButton = document.getElementById("add-button");
-var nameInput = document.getElementById("snack-name");
-var ratingSelect = document.getElementById("snack-rating");
-var snackList = document.getElementById("snack-list");
+const addButton = document.getElementById("add-button");
+const nameInput = document.getElementById("snack-name");
+const ratingSelect = document.getElementById("snack-rating");
+const snackList = document.getElementById("snack-list");
 
 // Add a snack when the Add button is clicked.
 addButton.addEventListener("click", function () {
-  var name = nameInput.value.trim();
-  var rating = Number(ratingSelect.value);
+  const name = nameInput.value.trim();
+  const rating = Number(ratingSelect.value);
 
   if (name === "") {
     nameInput.focus();
@@ -25,7 +25,7 @@ addButton.addEventListener("click", function () {
 // Mark a snack eaten when its "Eaten!" button is clicked.
 snackList.addEventListener("click", function (event) {
   if (event.target.className === "eaten-button") {
-    var index = Number(event.target.getAttribute("data-index"));
+    const index = Number(event.target.getAttribute("data-index"));
     markEaten(index);
     renderStash();
   }

@@ -2,7 +2,7 @@
 // The data side of Snack Stash. The stash array holds every snack,
 // and the functions in this file are the only ones that change it.
 
-var stash = [
+let stash = [
   { name: "Trail mix", rating: 3, eaten: false },
   { name: "Sour gummies", rating: 5, eaten: true },
   { name: "Cheese crackers", rating: 4, eaten: false },
@@ -27,8 +27,8 @@ function clearStash() {
 
 // Count how many snacks are still left to enjoy.
 function countRemaining() {
-  var count = 0;
-  for (var i = 0; i < stash.length; i++) {
+  let count = 0;
+  for (let i = 0; i < stash.length; i++) {
     count++;
   }
   return count;
