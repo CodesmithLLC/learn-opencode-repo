@@ -1,6 +1,6 @@
 # Snack Stash
 
-A tiny snack tracker with a problem: some of it is broken, and some of it was never finished. That's on purpose. Fixing it is your job in Unit 13.
+A tiny snack tracker with a problem: some of it is broken, and some of it was never finished. Fixing it will be your job in this unit.
 
 Snack Stash keeps a list of the snacks you're hoarding. You can add a snack with a star rating, mark a snack as eaten, and see your stats at the top of the page. At least, that's what it's supposed to do.
 
@@ -11,12 +11,10 @@ Snack Stash keeps a list of the snacks you're hoarding. You can add a snack with
 3. Open `index.html` in your browser. On a Mac, right-click it in Finder and choose Open With, then your browser. On Windows with WSL, run `explorer.exe .` in the integrated terminal, then double-click `index.html` in the window that opens.
 4. After every change you make, save the file and refresh the browser to see the result.
 
-No installs, no server, no build step. The browser and the refresh button are your whole test setup.
-
 ## The rules
 
-- OpenCode stays in **Plan mode** for the whole unit. It can explain, locate, and suggest. It cannot edit.
-- **You make every code change yourself.** If a change lands in a file, your hands typed it.
+- OpenCode should stay in **Plan mode** for the whole unit. It can explain, locate, and suggest. It should not be allowed to edit.
+- **You make every code change yourself.** If a change is made in any file, you should be the one who made it.
 - This README is the source of truth for *what* to build. OpenCode helps with *where* and *why*.
 - Before you change any code, be able to explain in plain English what it does now and what your change will do.
 
