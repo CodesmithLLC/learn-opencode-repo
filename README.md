@@ -38,7 +38,7 @@ Every challenge below follows the same seven steps. You walked them once, fully 
 4. Explain the problem yourself, in plain English, and run your hypothesis past OpenCode.
 5. Make the change with your own hands.
 6. Validate against the success checkpoint, and check that the features around your change still work.
-7. Write down what was broken (or missing), what you changed, and why it works now.
+7. Write down what was broken (or missing), what you changed, and why it works now. This will be helpful when you need to write a commit message or a pull request description.
 
 If you get stuck, tell OpenCode what you expected and what you saw instead, and ask it where your reasoning went wrong.
 
