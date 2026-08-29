@@ -73,7 +73,7 @@ This one is a brand new feature, built the way you built features in the last un
 
 **Your goal:** add a "5-star snacks only" button that filters the list. Clicking it shows only the snacks rated 5 stars. Clicking it again brings the whole stash back.
 
-1. Before writing any code: `git switch -c five-star-filter`
+1. Before writing any code create a feature branch by running `git switch -c five-star-filter`
 2. Build the feature with the same seven steps. A new feature still gets a goal, a checkpoint, an investigation, and an explanation before any code.
 3. Commit as you go, and push the branch to your fork: `git push -u origin five-star-filter`
 4. On GitHub, open a pull request on your fork.
