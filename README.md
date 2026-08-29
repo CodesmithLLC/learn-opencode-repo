@@ -69,7 +69,7 @@ Both fixes working? Get them onto GitHub. In the VSCode integrated terminal (a s
 
 ## Challenge 3: Show the good stuff (feature branch)
 
-This one is a brand new feature, built the way you built features in Unit 12: on a feature branch, finished with a pull request you review yourself.
+This one is a brand new feature, built the way you built features in the last unit: on a feature branch, finished with a pull request you review yourself.
 
 **Your goal:** add a "5-star snacks only" button that filters the list. Clicking it shows only the snacks rated 5 stars. Clicking it again brings the whole stash back.
 
