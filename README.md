@@ -34,7 +34,7 @@ Every challenge below follows the same seven steps. You walked them once, fully 
 
 1. Read the challenge's goal below, and restate it in your own words.
 2. Read the success checkpoint, then watch it fail in the browser.
-3. Investigate with OpenCode: locate the code involved, then ask for a line-by-line explanation. Plan mode, always.
+3. Investigate with OpenCode in Plan mode. Locate the code involved, then ask for a line-by-line explanation.
 4. Explain the problem yourself, in plain English, and run your hypothesis past OpenCode.
 5. Make the change with your own hands.
 6. Validate against the success checkpoint, and check that the features around your change still work.
