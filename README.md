@@ -60,7 +60,7 @@ There's a "Clear the stash" button at the bottom of the list. Click it. Nothing 
 
 ### Commit and push (after Challenges 1 and 2)
 
-Both fixes working? Get them onto GitHub. In the VSCode integrated terminal (a second one, if OpenCode is holding the first), run the loop you learned in Unit 12:
+Both fixes working? Get them onto GitHub. In the VSCode integrated terminal (a second one, if OpenCode is holding the first), run the loop you learned in the last unit:
 
 1. `git status` to see the files you changed.
 2. `git add .` to stage them.
