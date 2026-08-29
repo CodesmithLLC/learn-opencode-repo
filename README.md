@@ -77,7 +77,7 @@ This one is a brand new feature, built the way you built features in the last un
 2. Build the feature with the same seven steps. A new feature still gets a goal, a checkpoint, an investigation, and an explanation before any code.
 3. Commit as you go, and push the branch to your fork: `git push -u origin five-star-filter`
 4. On GitHub, open a pull request on your fork.
-5. Read your own diff, then write a short PR summary: what changed, why, and how to verify it.
+5. Read your own diff, then write a short PR summary explaining what changed, why, and how to verify it.
 6. Merge the pull request, then bring it home: `git switch main` and `git pull`.
 
 **Success checkpoint:** with the starter data, turning the filter on shows exactly 2 snacks (Sour gummies and Dark chocolate). Turning it off shows all 5, and adding or eating snacks still works afterward.
