@@ -40,7 +40,7 @@ Every challenge below follows the same seven steps. You walked them once, fully 
 6. Validate against the success checkpoint, and check that the features around your change still work.
 7. Write down what was broken (or missing), what you changed, and why it works now.
 
-Stuck? Tell OpenCode what you expected and what you saw instead, and ask it where your reasoning went wrong. It can point; the fix stays yours.
+If you get stuck, tell OpenCode what you expected and what you saw instead, and ask it where your reasoning went wrong.
 
 ## Challenge 1: The snack math is off
 
