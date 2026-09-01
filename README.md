@@ -86,7 +86,7 @@ This one is a brand new feature, built the way you built features in the last un
 
 - All three success checkpoints pass in your browser.
 - Your fixes for Challenges 1 and 2 are committed and pushed to your fork.
-- Your Challenge 3 feature lives in a pull request on your fork, with a short summary of what changed, why, and how to verify it.
-- You can explain every line you changed in plain English.
+- You merged the pull request for your Challenge 3 feature into the main branch of your fork.
+- You can confidently explain every change you made.
 
 All four boxes checked? Head back to CSX. The final lesson of the unit is waiting for you.
